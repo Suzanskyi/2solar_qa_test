@@ -5,6 +5,7 @@ const AntiCaptchaBrowser = require('../utils/AntiCaptchaBrowser');
 const HomePage = require('../pages/HomePage');
 const LoginPage = require('../pages/LoginPage');
 const AccountPage = require('../pages/AccountPage');
+const MapSearchPage = require('../pages/MapSearchPage');
 
 // Create a shared instance of AntiCaptchaBrowser
 const antiCaptchaBrowserInstance = new AntiCaptchaBrowser();
@@ -63,6 +64,9 @@ const test = baseTest.extend({
     },
     accountPage: async ({ page }, use) => {
         await use(new AccountPage(page));
+    },
+    mapSearchPage: async ({ page }, use) => {
+        await use(new MapSearchPage(page));
     }
 });
 

@@ -88,6 +88,22 @@ class BasePage {
     return this.page.getByText(text);
   }
 
+  getByTestId(testId) {
+    return this.page.getByTestId(testId);
+  }
+
+
+  /**
+   * Press the Enter key
+   * @returns {Promise<void>}
+   */
+  async pressEnter() {
+    return this.tryWithTimeout(
+        () => this.page.keyboard.press('Enter'),
+        'Press Enter key'
+    );
+  }
+
   /**
    * Expect a condition to be true
    * @param {import('@playwright/test').Locator} locator - The locator to check
