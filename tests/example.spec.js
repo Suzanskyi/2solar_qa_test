@@ -1,7 +1,10 @@
 const {test: baseTest, expect} = require('@playwright/test');
 const AntiCaptchaBrowser = require('./utils/AntiCaptchaBrowser');
-const fs = require('fs');
-const path = require('path');
+
+// Import page objects
+const HomePage = require('./pages/HomePage');
+const LoginPage = require('./pages/LoginPage');
+const AccountPage = require('./pages/AccountPage');
 
 // Create a shared instance of AntiCaptchaBrowser
 const antiCaptchaBrowserInstance = new AntiCaptchaBrowser();
@@ -49,15 +52,26 @@ const test = baseTest.extend({
     // Test fixtures
     antiCaptchaBrowser: async ({ antiCaptchaBrowserInstance }, use) => {
         await use(antiCaptchaBrowserInstance);
+    },
+
+    // Page object fixtures
+    homePage: async ({ page }, use) => {
+        await use(new HomePage(page));
+    },
+    loginPage: async ({ page }, use) => {
+        await use(new LoginPage(page));
+    },
+    accountPage: async ({ page }, use) => {
+        await use(new AccountPage(page));
     }
 });
 
-test('Funda homepage should load and display search form', async ({page}) => {
-    await page.goto('https://www.funda.nl', {waitUntil: 'domcontentloaded'});
+test('Funda homepage should load and display search form', async ({homePage}) => {
+    await homePage.goto();
 });
 
 
-test('Login test and save state', async ({page, browserContext, antiCaptchaBrowser}) => {
+test('Login test and save state', async ({homePage, loginPage, accountPage, browserContext, antiCaptchaBrowser}) => {
     // Skip if we already have a stored auth state
     if (antiCaptchaBrowser.hasStoredAuthState()) {
         console.log('Using stored authentication state. Skipping login.');
@@ -65,30 +79,28 @@ test('Login test and save state', async ({page, browserContext, antiCaptchaBrows
         return;
     }
 
-    await page.goto('https://www.funda.nl/');
-    await page.getByRole('button', {name: 'Alles accepteren'}).click();
-    await page.getByRole('button', {name: 'Inloggen'}).click();
-    await page.getByRole('textbox', {name: 'E-mailadres'}).click();
-    await page.getByRole('textbox', {name: 'E-mailadres'}).fill(process.env.EMAIL);
-    await page.getByRole('textbox', {name: 'E-mailadres'}).press('Tab');
-    await page.getByRole('textbox', {name: 'Wachtwoord'}).fill(process.env.PASSWORD);
-    await page.getByRole('button', {name: 'Log in'}).click();
-    await page.locator('#headlessui-menu-button-v-0-34').click();
-    await page.getByRole('menuitem', {name: 'Mijn account'}).click();
+    await homePage.goto();
 
-    await expect(page.locator('h1')).toContainText('Hallo Serhii');
-    await expect(page.locator('#main-content')).toContainText(process.env.EMAIL);
+    await homePage.acceptCookies();
+    await homePage.clickLogin();
+
+    await loginPage.login(process.env.EMAIL, process.env.PASSWORD);
+
+    await accountPage.navigateViaMenu();
+
+    await accountPage.verifyLoggedIn('Serhii', process.env.EMAIL);
 
     // Save the authentication state for future tests
-    await antiCaptchaBrowser.saveAuthState(browserContext);
-    console.log('Authentication state saved successfully.');
+    try {
+        await antiCaptchaBrowser.saveAuthState(browserContext);
+        console.log('Authentication state saved successfully.');
+    } catch (error) {
+        console.error(`Failed to save authentication state: ${error.message}`);
+    }
 });
 
-test('Access authenticated page using stored state', async ({page}) => {
-    // Go directly to the account page
-    await page.goto('https://www.funda.nl/account/');
+test('Access authenticated page using stored state', async ({accountPage}) => {
+    await accountPage.goto();
 
-    // Verify we're logged in by checking for user information
-    await expect(page.locator('h1')).toContainText('Hallo Serhii');
-    await expect(page.locator('#main-content')).toContainText(process.env.EMAIL);
+    await accountPage.verifyLoggedIn('Serhii', process.env.EMAIL);
 });

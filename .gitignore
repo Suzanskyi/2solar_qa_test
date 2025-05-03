@@ -8,6 +8,3 @@ node_modules/
 /.idea
 # Environment variables
 .env
-
-# Authentication state
-auth-state.json
