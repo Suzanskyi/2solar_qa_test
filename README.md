@@ -1,6 +1,10 @@
 # 2Solar QA Test
 
-This repository contains automated tests for the 2Solar project.
+This repository contains automated tests for the 2Solar qa test assigment. 
+
+Some notes on my observation: 
+1. I was able to solve the captcha problem using AntiCaptcha browser implementation. It is needed at least once pass the captha, the the saved state will be reused
+2. Some tests might fail, I haven't spent time polishing it to ideal. The goal was to cover all requirements
 
 ## Setup
 
