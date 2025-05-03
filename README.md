@@ -44,3 +44,33 @@ npx playwright test
 ## Test Structure
 
 The tests use a custom `AntiCaptchaBrowser` fixture to handle captchas and simulate human behavior automatically.
+
+### Browser Configuration
+
+All tests run with the following configuration:
+- Viewport size: 1920x1080 pixels
+- Headed mode in local development, headless in CI environments
+- Anti-captcha measures applied automatically
+
+### Authentication State Persistence
+
+The tests support saving and reusing authentication state between test runs:
+
+1. **How it works:**
+   - After a successful login, the browser's authentication state (cookies, localStorage) is saved to a file (`auth-state.json`)
+   - Subsequent test runs can reuse this saved state to avoid logging in again
+   - The login test automatically skips if a valid authentication state is already available
+
+2. **Benefits:**
+   - Faster test execution by avoiding repeated logins
+   - Reduced risk of login failures due to captchas or rate limiting
+   - More reliable tests by eliminating potential login-related flakiness
+
+3. **Implementation:**
+   - The `AntiCaptchaBrowser` class handles saving and loading the authentication state
+   - Worker fixtures ensure the browser instance is shared across tests
+   - Tests can directly access authenticated pages without explicit login steps
+
+4. **Managing the saved state:**
+   - To force a fresh login, delete the `auth-state.json` file from the project root
+   - For CI environments, the authentication state is created for each workflow run
