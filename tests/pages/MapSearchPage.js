@@ -16,6 +16,17 @@ class MapSearchPage extends BasePage {
         this.undefinedMainImage = this.getByRole('link', { name: 'undefined main image' }).first();
         this.propertyLink1 = this.getByRole('link', { name: addressData.properties[0].address });
         this.propertyLink2 = this.getByRole('link', { name: addressData.properties[1].address });
+
+        // Selectors for filters
+        this.filtersButton = this.getByRole('button', { name: 'Filters' });
+        this.priceMinSelect = this.locator('[data-test-id="price-filter"] [data-test-id="minmax-filter-min"] [data-test-id="ui-select"]');
+        this.priceMaxSelect = this.locator('[data-test-id="price-filter"] [data-test-id="minmax-filter-max"] [data-test-id="ui-select"]');
+        this.livingAreaMinSelect = this.locator('[data-test-id="floor-area-filter"] [data-test-id="minmax-filter-min"] [data-test-id="ui-select"]');
+        this.livingAreaMaxSelect = this.locator('[data-test-id="floor-area-filter"] [data-test-id="minmax-filter-max"] [data-test-id="ui-select"]');
+        this.keywordInput = this.getByRole('textbox', { name: 'Bijv. warmtepomp' });
+        this.addKeywordButton = this.getByRole('button', { name: 'Voeg toe' });
+        this.showResultsButton = this.locator('[data-test-id="show-results"]');
+        this.searchResults = this.locator('[data-test-id="search-results"]');
     }
 
     /**
@@ -172,6 +183,98 @@ class MapSearchPage extends BasePage {
         return this.tryWithTimeout(
             () => this.listViewButton.click(),
             'Click list view button',
+            10000
+        );
+    }
+
+    /**
+     * Click the Filters button
+     * @returns {Promise<void>}
+     */
+    async clickFiltersButton() {
+        return this.tryWithTimeout(
+            () => this.filtersButton.click(),
+            'Click filters button'
+        );
+    }
+
+    /**
+     * Set the price range filter
+     * @param {string} minPrice - Minimum price
+     * @param {string} maxPrice - Maximum price
+     * @returns {Promise<void>}
+     */
+    async setPriceRange(minPrice, maxPrice) {
+        await this.tryWithTimeout(
+            () => this.priceMinSelect.selectOption(minPrice),
+            `Set minimum price to ${minPrice}`
+        );
+        await this.tryWithTimeout(
+            () => this.priceMaxSelect.selectOption(maxPrice),
+            `Set maximum price to ${maxPrice}`
+        );
+    }
+
+    /**
+     * Set the living area range filter
+     * @param {string} minArea - Minimum living area
+     * @param {string} maxArea - Maximum living area
+     * @returns {Promise<void>}
+     */
+    async setLivingAreaRange(minArea, maxArea) {
+        await this.tryWithTimeout(
+            () => this.livingAreaMinSelect.selectOption(minArea),
+            `Set minimum living area to ${minArea}`
+        );
+        await this.tryWithTimeout(
+            () => this.livingAreaMaxSelect.selectOption(maxArea),
+            `Set maximum living area to ${maxArea}`
+        );
+    }
+
+    /**
+     * Add a keyword to the search
+     * @param {string} keyword - The keyword to add
+     * @returns {Promise<void>}
+     */
+    async addKeyword(keyword) {
+        await this.tryWithTimeout(
+            () => this.keywordInput.click(),
+            'Click keyword input'
+        );
+        await this.tryWithTimeout(
+            () => this.keywordInput.fill(keyword),
+            `Fill keyword with ${keyword}`
+        );
+        await this.tryWithTimeout(
+            () => this.addKeywordButton.click(),
+            'Click add keyword button'
+        );
+    }
+
+    /**
+     * Click the show results button
+     * @returns {Promise<void>}
+     */
+    async showResults() {
+        return this.tryWithTimeout(
+            () => this.showResultsButton.click(),
+            'Click show results button'
+        );
+    }
+
+    /**
+     * Check if search results are displayed
+     * @returns {Promise<boolean>} - True if results are visible, false otherwise
+     */
+    async hasSearchResults() {
+        return this.tryWithTimeout(
+            async () => {
+                const isVisible = await this.searchResults.isEnabled();
+                console.log(`Search results are ${isVisible ? 'visible' : 'not visible'}`);
+                return isVisible;
+            },
+            'Check if search results are visible',
             10000
         );
     }
