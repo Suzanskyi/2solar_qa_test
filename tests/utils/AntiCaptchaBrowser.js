@@ -14,23 +14,7 @@ class AntiCaptchaBrowser {
       args: ['--start-maximized'],
     });
 
-    const contextOptions = {
-      userAgent: this.userAgent,
-      locale: 'en-US',
-      viewport: { width: 1920, height: 1080 },
-    };
-
-    // Use stored auth state if available and requested
-    if (useStoredState && this.hasStoredAuthState()) {
-      contextOptions.storageState = this.authStateFile;
-    }
-
-    const context = await browser.newContext(contextOptions);
-    const page = await context.newPage();
-
-    await this.setupAntiCaptchaScripts(page);
-
-    return { browser, context, page };
+    return { browser };
   }
 
   hasStoredAuthState() {

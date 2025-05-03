@@ -1,0 +1,415 @@
+{
+  "cookies": [
+    {
+      "name": "SNLB",
+      "value": "24204f7050db4319",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": ".ASPXANONYMOUS",
+      "value": "BXapNQNjDspDOMw7QV9qdYMf5LC7L0tjL0i0Lyg0NEptMx6tWWjx1Qzr0MiCjB2k8tZkz7MYYwH8bnQDomsMw_M8hLpG345V3ky4jIAMz4onY7hfgfF6xadHZSnCDVdgU5REuqfJVETLSyJCSQDcgvvNajk1",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1752264664.398831,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "594D0945B23EB72B2117DA7D895D09B7~000000000000000000000000000000~YAAQko4QAjHg93qWAQAANip8lRsUeCBtofuzOi4dJYQZzBxBb4bEO0Mp1mSORTtOWh6qhSmetLUEAua9zxytw4QVCda2jL6dJSs3qkyjSx51+/GamSvxf0qpBR+OgEQeXPsMsEQzL3bAznaw1oMZ8MTXJAkjJ0Ua2QdyHKh+5zKoVW/SYOtMiiGrstgQSUfYGzAc3/T46ACu+bwEwoOGgNsH5egSLbxTTXdW/RdADtGUjyLQ4MXFSgG2rMeaRL3DaK9rNtWd6O0oNiCs+IWLZdUrt8BsH9xlaZBwXjpvUjcsDwXwEF8qcu8OhoebcUArQ3igcFLHoaVToeZGoykBsLXRwDZnip8uaKUoeU8U21gUGTyxFjmZEBtsctMRAQ/JR754MIJlr9mXSzV/Ol5CpCgWy8H9ZjEravt2aDFi8uCMBBOlhMZPOUJn8pVJ3hoyozKhYD9NjFC4OBWE",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1746271863.660241,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "didomi_token",
+      "value": "eyJ1c2VyX2lkIjoiMTk2OTU3YzItOTQzNC02YjlmLTlkNTQtZThhMjcwZDgxNjk1IiwiY3JlYXRlZCI6IjIwMjUtMDUtMDNUMDk6MzE6MDQuMzg3WiIsInVwZGF0ZWQiOiIyMDI1LTA1LTAzVDA5OjMxOjA0LjcwMFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmZ1bmRhcGFydC1pQk5nWFd3WCIsImM6ZGF0YWRvZy1yZHRZN0FtRSIsImM6ZnVuZGFmdW5jLUFIaEQyWXEzIiwiYzpzZWdtZW50LUdRcFdQUWhLIiwiYzpnb29nbGVhbmEtamFnbjZObmciLCJjOm9wdGltaXplbHktODIyQTZxTmciLCJjOmNsb3VkZmxhcmUtOGZuYTNFSEEiLCJjOmdvb2dsZXRhZy1lRVlQajMyWiIsImM6aG90amFyLVQ4Mmp0Q1VxIiwiYzpnZXRmZWVkYmEtQnRqWEZMMloiLCJjOnNhbGVzZm9yY2Uta0s3cnBleFkiLCJjOmluZy1qcVg2ZDN0WSJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJhZHZlcnRpc2VtZW50LWdyb3VwIiwicGVyc29uYWxpc2F0aW9uLWdyb3VwIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkV0LUFJQkVrRURBS01BbHZnQUFBLkFBQUEifQ==",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777887064,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "euconsent-v2",
+      "value": "CQQ1Z0AQQ1Z0AAHABBENBnFgAP_gAAAAABpYGWNBzC5dRAFCCD5wYNsAOQQVoNAABEQgAAIAAgABwAKAIAQCkEAAFADgAAACAAAAIAABAAJAEAAAAQAAAAAAAAAAQAAAAAIIIAAAgAIBAAAIAAAAAAAAQAAAgAAAAAAAkAAAAIIAQEAAAAxAADAAEFjCUAGAAILGFIAMAAQWMHQAYAAgsYEgAwABBYwtABgACCxg.f_wAAAAAAAAA",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777887064,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.915207362.1746264665",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1780824666.984307,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "9c4c37fa-55a7-4dbe-814c-9044ac43c45b",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777800667,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "didomi_consent",
+      "value": "advertisement-group,analytical-group,functional-group,personalisation-group,cookies,select_basic_ads,create_ads_profile,select_personalized_ads,create_content_profile,select_personalized_content,market_research,improve_products,use_limited_data_to_select_content,measure_ad_performance,measure_content_performance,",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777887064.727465,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSession_2869769",
+      "value": "eyJpZCI6ImYzN2JhNDYyLTY2NmUtNDcwMS1hNGNlLTcyNDZjNjk2Mzc1NiIsImMiOjE3NDYyNjQ2NjUzMzYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1746266465,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_pubcid",
+      "value": "f6ad477d-d3eb-40f5-9ac0-b417f75d0a00",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777800665,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pubcid_cst",
+      "value": "4ixVLNUsNg%3D%3D",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777800665,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "f.aft",
+      "value": "CfDJ8GNl5Ec9AkRGkJnMb-TOqk8Y90QOqLryWB54cPRUnmwary8iLkKpTLyLTfPo8m_1ZwA5109h4bH2PF1GBGfNFJ1rAUprIloc0YqjkxweEH4fI3T57e3hu2edv6dpVlmOzWkq1I1oDI5OaYsShstpjkU",
+      "domain": "login.funda.nl",
+      "path": "/",
+      "expires": 1746696665.674223,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "optimizelyEndUserId",
+      "value": "oeu1746264666098r0.17765657601877338",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1761816666,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "idsrv.session",
+      "value": "AA9D1C1089B75EADED42A082588875C8",
+      "domain": "login.funda.nl",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "f.uid",
+      "value": "CfDJ8GNl5Ec9AkRGkJnMb-TOqk-44vQUnl9neoNrBk8lwBaYyMrfAqAoU0WjnSdd-tyi1OU9fyn-ZefZQ_iKrlPFrAMW-FOO_9VYA0kGp5eI9ZH_BkE9SrBawO-ciAqhuqI4e5yraiXum2Y5lxTuP3-eckc_rqALIlgioPPehZ19Vn_yTp854gGw2fG_NGd1NojK8c9z6yU2BsvcDUPsZ3ptP55QnePmS0igWBOGDTk-q8l4tA37YkcRb576ZghJYW-LMTREzgStFDsmC0ivOx3qaThJtRfzr_fZaXoxDCtYkjYOa1C1U0dDPRvYJYopUmsRWI8s0qpRqiWZPCBzv4pVdFlP9GDOjVclloajJ4W7hh0Pv1CvfKmIgcIgemxz74FiGav_EqJWm8V3f7DfAE29fLdDNgLp6j8-BztKqauyznIZTpg1UC2_336G27yrq5yI703uhf6sz9RD6bbcNCHe1x7zc7l8qH0hfHLsPvn0UoQl5BL9Adi6FcjYMwMLvXEve7Gs8zi174pbQ1m-vg5BKw5weQaIbxa8EwQsbmZCoJUZMSeN0sJaNMOOfBvxRCyXC4780AJYNf7s2WQMznhTBp0vPk0UH3AYfVE4B61MbkvyV_Vd1I13Bi3zPaIiKlt70sjI9xyQL3MjHjIuH9-QPoQUH9wWI9Pcj-NpISb5mld5EqGKD3lrfj604obJlnDTetf7FAPuM-EdKGQaVxu-2jLmbJHBBBm_X4u7APNjYxVcyUUZbfyDRS_8UbCExk1hbgCgHNEMxq_jifIKaDZkU4-r97bZ5pizLVSNVsEOyCR_HPcvb14SJFQm4BK5idOAozliOArANe-cw5CYD9E9NR-yVEbKBFRhgf_JaM_rj9uwP7pLycoEw_NP_SIjbyYhvQ-o9Dj-LmzIzxJdCwfVbrvfR3SB6WXnrBFtwNjgXLwWApOnB4a1EAvwBjNySgXDN1kGQz0TRrnfnXdBSokadmU",
+      "domain": "login.funda.nl",
+      "path": "/",
+      "expires": 1754040666.430612,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth.sync.id",
+      "value": "acc396d8-13d6-45a0-92bd-a58cc3fde20d",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1754040666.600105,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.token",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkQwMjlEREM4QzZBRkJFQTkyRkJFREM0QTM3NkVFNUFCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvZ2luLmZ1bmRhLm5sIiwibmJmIjoxNzQ2MjY0NjY2LCJpYXQiOjE3NDYyNjQ2NjYsImV4cCI6MTc0NjI2ODI2NiwiYXVkIjoiZnVuZGFfYXBpIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImZ1bmRhX2Jhc2ljIiwiZnVuZGFfbG9naW5fbWV0YWRhdGEiLCJmdW5kYV9hcGkiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6ImZ1bmRhLWFwcC1qcy1jbGllbnQiLCJzdWIiOiJhY2MzOTZkOC0xM2Q2LTQ1YTAtOTJiZC1hNThjYzNmZGUyMGQiLCJhdXRoX3RpbWUiOjE3NDYyNjQ2NjYsImlkcCI6ImxvY2FsIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InN1emFuc2tpeXNAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJhY2MzOTZkOC0xM2Q2LTQ1YTAtOTJiZC1hNThjYzNmZGUyMGQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzdXphbnNraXlzQGdtYWlsLmNvbSIsImZ1bmRhX3VzZXJfdHlwZSI6IkN1c3RvbWVyIiwic2lkIjoiQUE5RDFDMTA4OUI3NUVBREVENDJBMDgyNTg4ODc1QzgiLCJqdGkiOiIxNjRDQzkxN0M4Q0JBODAwMkJCM0E1RkYzODQ0OTg4NSJ9.WDgRbyfpwV7QRA5fSQR04p5kezgMtp92OHYxhYl5-tTdcR9eUVxeIDALJ1uwp6NdvAxw8Yv8y_Datxix9Xi2eRIrPGI_eGW-yfnHwmsGysra22i5wSultYlCLzvid2lJ5RhAUPLZ35ozrf35oWSqL5t7yCrwjIjtNWyXoer2MPz-2Y1kh78yAnO5Ly7OBh49NMaPL6WsZ-t1jQVEDRkbHiRG2CQ8VlqQ9TGh2XgEPOOEnYKszs-FZPyYxVYSiiI6l05TzW7k5iJlnY4Y1BZW_SmC20N2PC63mNeUVr0j-NlVYEi0nvd7fh83a-pzkYTg9PH-OyJ6CKoJe9UK8A60fw",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1746268206.600113,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.token.expiration",
+      "value": "1746268206574",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1746268206.600124,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.id_token",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkQwMjlEREM4QzZBRkJFQTkyRkJFREM0QTM3NkVFNUFCIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL2xvZ2luLmZ1bmRhLm5sIiwibmJmIjoxNzQ2MjY0NjY2LCJpYXQiOjE3NDYyNjQ2NjYsImV4cCI6MTc0NjI2ODI2NiwiYXVkIjoiZnVuZGEtYXBwLWpzLWNsaWVudCIsImFtciI6WyJwd2QiXSwiYXRfaGFzaCI6IlVEUTU1SjdfRlNlMmtaelBCV3VtMkEiLCJzaWQiOiJBQTlEMUMxMDg5Qjc1RUFERUQ0MkEwODI1ODg4NzVDOCIsInN1YiI6ImFjYzM5NmQ4LTEzZDYtNDVhMC05MmJkLWE1OGNjM2ZkZTIwZCIsImF1dGhfdGltZSI6MTc0NjI2NDY2NiwiaWRwIjoibG9jYWwiLCJuYW1lIjoic3V6YW5za2l5c0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3V6YW5za2l5c0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImFjYzM5NmQ4LTEzZDYtNDVhMC05MmJkLWE1OGNjM2ZkZTIwZCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InN1emFuc2tpeXNAZ21haWwuY29tIiwiZnVuZGFfdXNlcl90eXBlIjoiQ3VzdG9tZXIiLCJ1c2VybmFtZSI6InN1emFuc2tpeXNAZ21haWwuY29tIiwiZnVuZGFfcmVnaXN0cmF0aW9uX2RhdGUiOiIyMDI1LTA1LTAzVDA5OjA0OjMzIiwiZnVuZGFfbGFzdF9sb2dpbl9kYXRlIjoiMjAyNS0wNS0wM1QxMTozMTowNiIsImZ1bmRhX2hhc19sb2NhbF9hY2NvdW50IjoidHJ1ZSIsImZ1bmRhX2hhc19leHRlcm5hbF9hY2NvdW50IjoiZmFsc2UiLCJmdW5kYV9wZXJzaXN0ZW50X2xvZ2luX3JlcXVlc3RlZCI6InRydWUifQ.TYjgwGts7iaR0tBIvlCAtJhfk-5TpikD_YY6Aeuln7RQ2Idt7nF5-8Qv280zJ8mp0pthB0Xgg6-jj2geR0ZgcOeBSy4MgzzWQF2R2HOfdBhnt8ZfDd89vUE-pykNhlK4jgos_Mdl7wHQZqdSv_TsR3o7NTzMksCjG-wgXf0Exd5INbLkPIKRMUgett8tZigvlig6YT5tJRiw91cevncTsrOjOnLg-ROP9D0ysHHXTNCeyKDBfftB1BfxH8QIjOFydF3vnhAGoSAy8fu9z0UDva7VNkpEza8mmCCiEi918RcF_ropA7TkDYtRp2SradnKibMOhz6EsPYIVgxcsjLG5g",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1746351006.60013,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.id_token.expiration",
+      "value": "1746351006574",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1746351006.600142,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.refresh_token",
+      "value": "0CC8F8AC4B0C0F7EA91158C6C9239BF653AF6310E5727312293AE671274BB2AF-1",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1754040606.600147,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "funda.shell.oidc.refresh_token.expiration",
+      "value": "1754040606574",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1754040606.600154,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_WLRNSHBY8J",
+      "value": "GS2.1.s1746264664$o1$g1$t1746264666$j0$l0$h0",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1780824666.984216,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSessionUser_2869769",
+      "value": "eyJpZCI6ImVkZTI0NWQ3LWQ4YTUtNTVhNC05MzVlLWYxMTIwMTMxMmIyYiIsImNyZWF0ZWQiOjE3NDYyNjQ2NjUzMzYsImV4aXN0aW5nIjp0cnVlfQ==",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777800667,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ajs_user_id",
+      "value": "acc396d8-13d6-45a0-92bd-a58cc3fde20d",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1777800667,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.382215803.1746264668",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1754040667,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionstarted",
+      "value": "true",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "B4DF978908DA4093197D8E6BE4C5C977~YAAQko4QAqfg93qWAQAAEzd8lRsNkd2/mU1V5TdNjR776U684sPUZ5vYR41VS2EQ/ozy0L6gRfLnjGiGo0gbazkics21vEG0Pa7Knd42juSB/Wio9+NMBgrncT1NTrefc35brLufBn0co6ql+Y3ouKzjHmNe5te9qekfO7gOvvtaXzbPk+7Dd5XRxjgd9N1UA77dmJqtWn0M6GQXvDrYFS9dIBr45HrxdUX8qAqGDWoBVBjD+6182VBCSX/2hR4=~1",
+      "domain": ".funda.nl",
+      "path": "/",
+      "expires": 1746271864.9474,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "logs=1&id=9dbb83ac-0c77-4162-a1d6-62bc29cd04e0&created=1746264664246&expire=1746265567960",
+      "domain": "www.funda.nl",
+      "path": "/",
+      "expires": 1746265567,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.funda.nl",
+      "localStorage": [
+        {
+          "name": "segment_user_traits",
+          "value": "{\"expires\":1746271867110,\"data\":{\"seg_low_freq_visitor\":true,\"seg_phowmh_baseline\":true}}"
+        },
+        {
+          "name": "__bm_s",
+          "value": ""
+        },
+        {
+          "name": "__bm_m",
+          "value": ""
+        },
+        {
+          "name": "didomi_token",
+          "value": "eyJ1c2VyX2lkIjoiMTk2OTU3YzItOTQzNC02YjlmLTlkNTQtZThhMjcwZDgxNjk1IiwiY3JlYXRlZCI6IjIwMjUtMDUtMDNUMDk6MzE6MDQuMzg3WiIsInVwZGF0ZWQiOiIyMDI1LTA1LTAzVDA5OjMxOjA0LjcwMFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmZ1bmRhcGFydC1pQk5nWFd3WCIsImM6ZGF0YWRvZy1yZHRZN0FtRSIsImM6ZnVuZGFmdW5jLUFIaEQyWXEzIiwiYzpzZWdtZW50LUdRcFdQUWhLIiwiYzpnb29nbGVhbmEtamFnbjZObmciLCJjOm9wdGltaXplbHktODIyQTZxTmciLCJjOmNsb3VkZmxhcmUtOGZuYTNFSEEiLCJjOmdvb2dsZXRhZy1lRVlQajMyWiIsImM6aG90amFyLVQ4Mmp0Q1VxIiwiYzpnZXRmZWVkYmEtQnRqWEZMMloiLCJjOnNhbGVzZm9yY2Uta0s3cnBleFkiLCJjOmluZy1qcVg2ZDN0WSJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJhZHZlcnRpc2VtZW50LWdyb3VwIiwicGVyc29uYWxpc2F0aW9uLWdyb3VwIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkV0LUFJQkVrRURBS01BbHZnQUFBLkFBQUEifQ=="
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1746264667501},\"expires\":1754040667501}}"
+        },
+        {
+          "name": "UINFO",
+          "value": "{\"error\":\"\",\"createdDate\":1746264665681}"
+        },
+        {
+          "name": "euconsent-v2",
+          "value": "CQQ1Z0AQQ1Z0AAHABBENBnFgAP_gAAAAABpYGWNBzC5dRAFCCD5wYNsAOQQVoNAABEQgAAIAAgABwAKAIAQCkEAAFADgAAACAAAAIAABAAJAEAAAAQAAAAAAAAAAQAAAAAIIIAAAgAIBAAAIAAAAAAAAQAAAgAAAAAAAkAAAAIIAQEAAAAxAADAAEFjCUAGAAILGFIAMAAQWMHQAYAAgsYEgAwABBYwtABgACCxg.f_wAAAAAAAAA"
+        },
+        {
+          "name": "gads_privacy_sandbox_tcf_hash",
+          "value": "47471454"
+        },
+        {
+          "name": "goog:cached:topics",
+          "value": "[null,1746264667686,3]"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"9c4c37fa-55a7-4dbe-814c-9044ac43c45b\""
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "\"acc396d8-13d6-45a0-92bd-a58cc3fde20d\""
+        },
+        {
+          "name": "ajs_user_traits",
+          "value": "{\"funda_user_id\":\"acc396d8-13d6-45a0-92bd-a58cc3fde20d\",\"hashedemail\":\"907553d081baf3ac42cdb6eaff5d94be0a2f34c42ed9d584d1a823c4c5dc0c87\",\"language\":\"nl\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://login.funda.nl",
+      "localStorage": [
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$layer_map",
+          "value": "{}"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$session_state",
+          "value": "{\"lastSessionTimestamp\":1746264666099,\"sessionId\":\"64efcbc4-af0f-463e-92f4-e94ea47302f1\"}"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$tracker_optimizely",
+          "value": "{\"data\":{\"account_id\":\"18146640370\",\"anonymize_ip\":true,\"client_name\":\"js\",\"client_version\":\"0.224.0\",\"project_id\":\"18146640370\",\"visitors\":[{\"session_id\":\"AUTO\",\"visitor_id\":\"oeu1746264666098r0.17765657601877338\",\"attributes\":[{\"entity_id\":null,\"key\":\"\",\"type\":\"first_session\",\"value\":true},{\"entity_id\":null,\"key\":\"\",\"type\":\"browserId\",\"value\":\"gc\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device\",\"value\":\"desktop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device_type\",\"value\":\"desktop_laptop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"referrer\",\"value\":\"https://www.funda.nl/\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"source_type\",\"value\":\"referral\"}],\"snapshots\":[{\"decisions\":[],\"events\":[{\"entity_id\":null,\"type\":\"client_activation\",\"uuid\":\"af729445-440c-469b-8bba-967c3b2def5d\",\"timestamp\":1746264666103}]}]}],\"revision\":\"11694\",\"enrich_decisions\":true},\"decisions\":[],\"decisionEvents\":[],\"previousBatches\":[]}"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$layer_states",
+          "value": "[]"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$visitor_profile",
+          "value": "{\"profile\":{\"visitorId\":\"oeu1746264666098r0.17765657601877338\",\"customBehavior\":{},\"first_session\":true,\"browserId\":\"gc\",\"browserVersion\":\"136.0.7103.25\",\"device\":\"desktop\",\"device_type\":\"desktop_laptop\",\"referrer\":\"https://www.funda.nl/\",\"source_type\":\"referral\"},\"metadata\":{\"visitorId\":{},\"events\":{},\"customBehavior\":{},\"first_session\":{},\"browserId\":{},\"browserVersion\":{},\"device\":{},\"device_type\":{},\"referrer\":{},\"source_type\":{}}}"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$variation_map",
+          "value": "{}"
+        },
+        {
+          "name": "optimizely_data$$oeu1746264666098r0.17765657601877338$$18146640370$$contextual_mab",
+          "value": "{}"
+        }
+      ]
+    },
+    {
+      "origin": "https://a18146640370.cdn.optimizely.com",
+      "localStorage": [
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$layer_states",
+          "value": "[]"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$tracker_optimizely",
+          "value": "{\"data\":{\"account_id\":\"18146640370\",\"anonymize_ip\":true,\"client_name\":\"js\",\"client_version\":\"0.224.0\",\"project_id\":\"18146640370\",\"visitors\":[{\"session_id\":\"AUTO\",\"visitor_id\":\"oeu1746264666098r0.17765657601877338\",\"attributes\":[{\"entity_id\":null,\"key\":\"\",\"type\":\"first_session\",\"value\":true},{\"entity_id\":null,\"key\":\"\",\"type\":\"browserId\",\"value\":\"gc\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device\",\"value\":\"desktop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device_type\",\"value\":\"desktop_laptop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"referrer\",\"value\":\"https://www.funda.nl/\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"source_type\",\"value\":\"referral\"}],\"snapshots\":[{\"decisions\":[],\"events\":[{\"entity_id\":null,\"type\":\"client_activation\",\"uuid\":\"af729445-440c-469b-8bba-967c3b2def5d\",\"timestamp\":1746264666103}]}]}],\"revision\":\"11694\",\"enrich_decisions\":true},\"decisions\":[],\"decisionEvents\":[],\"previousBatches\":[]}"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$contextual_mab",
+          "value": "{}"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$layer_map",
+          "value": "{}"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$variation_map",
+          "value": "{}"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$session_state",
+          "value": "{\"lastSessionTimestamp\":1746264666099,\"sessionId\":\"64efcbc4-af0f-463e-92f4-e94ea47302f1\"}"
+        },
+        {
+          "name": "https://login.funda.nl_oeu1746264666098r0.17765657601877338$$18146640370$$visitor_profile",
+          "value": "{\"profile\":{\"visitorId\":\"oeu1746264666098r0.17765657601877338\",\"customBehavior\":{},\"first_session\":true,\"browserId\":\"gc\",\"browserVersion\":\"136.0.7103.25\",\"device\":\"desktop\",\"device_type\":\"desktop_laptop\",\"referrer\":\"https://www.funda.nl/\",\"source_type\":\"referral\"},\"metadata\":{\"visitorId\":{},\"events\":{},\"customBehavior\":{},\"first_session\":{},\"browserId\":{},\"browserVersion\":{},\"device\":{},\"device_type\":{},\"referrer\":{},\"source_type\":{}}}"
+        }
+      ]
+    }
+  ]
+}

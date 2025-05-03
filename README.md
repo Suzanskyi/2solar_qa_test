@@ -68,7 +68,10 @@ The tests support saving and reusing authentication state between test runs:
 
 3. **Implementation:**
    - The `AntiCaptchaBrowser` class handles saving and loading the authentication state
-   - Worker fixtures ensure the browser instance is shared across tests
+   - A carefully structured fixture hierarchy ensures only one browser instance is created:
+     - The `browser` fixture (worker scope) creates a single browser instance shared across all tests
+     - The `browserContext` fixture (test scope) creates a context with the stored auth state
+     - The default `page` fixture is overridden to use our context and apply anti-captcha measures
    - Tests can directly access authenticated pages without explicit login steps
 
 4. **Managing the saved state:**
