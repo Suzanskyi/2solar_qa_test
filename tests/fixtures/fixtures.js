@@ -6,6 +6,7 @@ const HomePage = require('../pages/HomePage');
 const LoginPage = require('../pages/LoginPage');
 const AccountPage = require('../pages/AccountPage');
 const MapSearchPage = require('../pages/MapSearchPage');
+const PropertyDetailPage = require('../pages/PropertyDetailPage');
 
 // Create a shared instance of AntiCaptchaBrowser
 const antiCaptchaBrowserInstance = new AntiCaptchaBrowser();
@@ -30,6 +31,7 @@ const test = baseTest.extend({
             userAgent: antiCaptchaBrowserInstance.userAgent,
             locale: 'en-US',
             viewport: { width: 1920, height: 1080 },
+            acceptDownloads: true, // Enable file downloads
         };
 
         // Use stored auth state if available
@@ -67,6 +69,9 @@ const test = baseTest.extend({
     },
     mapSearchPage: async ({ page }, use) => {
         await use(new MapSearchPage(page));
+    },
+    propertyDetailPage: async ({ page }, use) => {
+        await use(new PropertyDetailPage(page));
     }
 });
 
