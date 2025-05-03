@@ -32,6 +32,9 @@ export default defineConfig({
     /* Run tests in headed mode locally, but headless in CI */
     headless: process.env.CI ? true : false,
 
+    /* Set viewport size to 1920x1080 */
+    viewport: { width: 1920, height: 1080 },
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
