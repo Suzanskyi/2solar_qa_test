@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "Kasteel-Traverse 148",
+      "address": "Kasteel-Traverse 148"
+    },
+    {
+      "name": "Kasteel-Traverse 37",
+      "address": "Kasteel-Traverse 37    5701NR"
+    }
+  ],
+  "searchUrls": {
+    "byStreet": "https://www.funda.nl/zoeken/koop?selected_area=[%22helmond/straat-kasteel-traverse%22]",
+    "byPostcode": "https://www.funda.nl/zoeken/koop?selected_area=[%225701nr%22]"
+  }
+}
